@@ -6,6 +6,7 @@ p {
 html {
     /*Por default, el tamaño de referencia es 16px*/
     font-size: 18px;
+    font-family: "DynaPuff", Lato, Arial, sans-serif;
 }
 
 .caja {
@@ -15,7 +16,8 @@ html {
 
 h1 {
     color: blue;
-    font-size: 200%;
+    font-size: 2em;
+    font-family: "Poppins", "Garamond", serif;
 }
 
 .otroTamanio {
@@ -24,6 +26,10 @@ h1 {
 
 #mila {
     display: block;
+}
+
+.ingredientes-mila {
+    list-style-image: url("../img/milanesa.jpg");
 }
 
 .violeta-negrita {
