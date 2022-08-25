@@ -6,20 +6,24 @@
     box-sizing: border-box;
 }
 
-div.fondo-rosa {
+.fondo-rosa {
     background: pink;
     border: 5px solid rgb(247, 81, 109);
     padding: 10px;
     margin: 50px 20px;
 }
 
-.pasos {
-    width: 50%;
-    background: red;
-}
-
 .img-receta {
     width: 100%;
+}
+
+.ingredientes, .pasos {
+    width: 50%;
+    float: left;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 ul, ol {
